@@ -1,6 +1,6 @@
 # Full Stack Project: Backend + Frontend
 
-This project consists of a backend (NestJS) and a frontend (React). The backend runs on port `3000`, and the frontend runs on port `8080`. Follow the instructions below to run both applications locally using terminal commands.
+This project consists of a backend (NestJS) and a frontend (React). The backend runs on port `3000`, and the frontend runs on port `8080`.
 
 ## Project Structure
 
