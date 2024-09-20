@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": false,
+    "removeComments": true,
+    "allowJs": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": false,
+    "outDir": "./build",
+    "baseUrl": "./",
+    "rootDir": "./",
+    "incremental": true
+  },
+  "include": [
+    "src/**/*",
+    "run.ts"
+  ],
+  "exclude": [
+    "node_modules/**/*",
+    "build"
+  ]
+}

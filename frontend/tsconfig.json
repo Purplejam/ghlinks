@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+		"module": "esnext",
+		"moduleResolution": "node",
+		"declaration": false,
+		"removeComments": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"allowSyntheticDefaultImports": true,
+		"target": "es2017",
+		"noImplicitAny": true,
+		"noImplicitThis": true,
+		"strictNullChecks": true,
+		"lib": [
+			"es6",
+			"dom",
+			"dom.iterable",
+			"esnext"
+		],
+		"sourceMap": true,
+		"outDir": "./build",
+		"baseUrl": "./",
+		"rootDir": "./",
+		"incremental": true,
+		"jsx": "react"
+    },
+    "include": [
+		"src/**/*",
+		"config/**/*",
+		"custom.d.ts",
+		"assets"
+    ],
+    "exclude": [
+		"node_modules/**/*",
+		"build"
+    ]
+}
+  
