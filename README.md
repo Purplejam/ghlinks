@@ -10,7 +10,24 @@ This project consists of a backend (NestJS) and a frontend (React). The backend 
 ├── README.md
 ```
 
-## Backend Setup
+## Running with Docker Compose
+
+1. Ensure you have Docker and Docker Compose installed on your machine.
+
+2. Run the following command in the root of the project (where the docker-compose.yml file is located):
+
+```bash
+docker-compose up --build
+```
+
+This will build the Docker images and start both the backend and frontend services.
+
+Once both the frontend and backend are running:
+
+- **Frontend**: Open your browser and go to `http://localhost:8080`
+- **Backend**: The backend API is available at `http://localhost:3000`
+
+## Backend Setup (Manual)
 
 1. Navigate to the backend directory: `cd backend`
 
@@ -20,7 +37,7 @@ This project consists of a backend (NestJS) and a frontend (React). The backend 
 
 4. Run the backend in development mode: `npm run start:dev:server`. This will start the NestJS server on `http://localhost:3000`.
 
-## Frontend Setup
+## Frontend Setup (Manual)
 
 1. Open a new terminal window and navigate to the frontend directory: `cd frontend`
 

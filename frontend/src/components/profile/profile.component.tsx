@@ -178,7 +178,7 @@ export const Profile: FunctionComponent = () => {
                         <Alert 
                             variant="filled" 
                             severity="warning">
-                                { "Repos not found" }
+                                { "Repos not found or already been saved" }
                         </Alert>
                     )
                 } 

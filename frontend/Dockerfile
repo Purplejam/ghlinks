@@ -1,15 +1,15 @@
-FROM node:20
+FROM node:20-alpine as base
 
 WORKDIR /usr/src/app
 
 COPY package*.json ./
 
-RUN npm ci
+COPY --chown=node:node . .
 
-COPY . .
+RUN npm ci
 
 RUN npm run build
 
-EXPOSE 3000
+EXPOSE 8080
 
 CMD ["npx", "webpack-cli", "serve", "--mode", "development"]

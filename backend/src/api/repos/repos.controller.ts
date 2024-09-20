@@ -40,9 +40,7 @@ export class ReposController {
 
         const repos = await response.json();
         if(!repos?.items.length) {
-            return { 
-                message: "Repository doesn't found" 
-            }
+            throw new HttpException("Repo not found", 404);
         }
         const repo = repos.items[0];
 
