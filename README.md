@@ -5,7 +5,6 @@ This project consists of a backend (NestJS) and a frontend (React). The backend 
 ## Project Structure
 
 ```
-/
 ├── backend/      # Backend (NestJS)
 ├── frontend/     # Frontend (React)
 ├── README.md
@@ -17,7 +16,9 @@ This project consists of a backend (NestJS) and a frontend (React). The backend 
 
 2. Install dependencies: `npm install`
 
-3. Run the backend in development mode: `npm run start:dev:server`. This will start the NestJS server on `http://localhost:3000`.
+3. Copy .env.example to .env file
+
+4. Run the backend in development mode: `npm run start:dev:server`. This will start the NestJS server on `http://localhost:3000`.
 
 ## Frontend Setup
 
@@ -25,9 +26,9 @@ This project consists of a backend (NestJS) and a frontend (React). The backend 
 
 2. Install dependencies: `npm install`
 
-3. Run the frontend in development mode: `npm run start:dev`. This will start the React application with hot-reloading on `http://localhost:8080`.
+3. Copy .env.example to .env file
 
-4. To build the frontend (optional for production): `npm run build`
+4. Run the frontend in development mode: `npm run start:dev`. This will start the React application with hot-reloading on `http://localhost:8080`.
 
 ## Access the Application
 
