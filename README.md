@@ -8,6 +8,7 @@ This project consists of a backend (NestJS) and a frontend (React). The backend 
 ├── backend/      # Backend (NestJS)
 ├── frontend/     # Frontend (React)
 ├── README.md
+├── docker-compose.yml
 ```
 
 ## Running with Docker Compose
