@@ -3,7 +3,7 @@ import { ReposService } from "../../core/services/repos/repos.service";
 import { AuthGuard } from "../../core/guards/auth.guard";
 import { CreateDTO, DeleteDTO } from "./repos.dto";
 
-@Controller("api/repos")
+@Controller()
 export class ReposController {
 
     private baseUrl = "https://api.github.com/search/repositories";

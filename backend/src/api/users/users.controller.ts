@@ -3,7 +3,7 @@ import { UsersService } from "../../core/services/users/users.service";
 import { CreateDTO, LoginDTO } from "./users.dto";
 import { AuthGuard } from "../../core/guards/auth.guard";
 
-@Controller("api/users")
+@Controller()
 export class UsersController {
 
     constructor(private usersService: UsersService) {}
