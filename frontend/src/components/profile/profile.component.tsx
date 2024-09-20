@@ -218,7 +218,6 @@ export const Profile: FunctionComponent = () => {
                                                 >
                                                     { repo.project_url }
                                                 </Link>
-
                                             </TableCell>
                                             <TableCell>{ repo.stars }</TableCell>
                                             <TableCell>{ repo.forks }</TableCell>
@@ -256,16 +255,15 @@ export const Profile: FunctionComponent = () => {
                         fullWidth
                         required
                     />
-                        <Button 
-                            type={ "submit" }
-                            fullWidth
-                            variant={ "contained" }
-                        >
-                            { "Add" }
-                        </Button>
+                    <Button 
+                        type={ "submit" }
+                        fullWidth
+                        variant={ "contained" }
+                    >
+                        { "Add" }
+                    </Button>
                 </Paper>
             </SimpleModal> 
         </Fragment>
-
     )
 }
