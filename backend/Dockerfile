@@ -4,9 +4,9 @@ WORKDIR /usr/src/app
 
 COPY package*.json ./
 
-COPY --chown=node:node . .
-
 RUN npm ci
+
+COPY --chown=node:node . .
 
 RUN npm run build
 
