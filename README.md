@@ -28,6 +28,14 @@ Once both the frontend and backend are running:
 - **Frontend**: Open your browser and go to `http://localhost:8080`
 - **Backend**: The backend API is available at `http://localhost:3000`
 
+## Registration or login as a test user
+
+Then you can create a new account or get access to the profile page as a test user.
+
+Email: `test@admin.com`
+
+Password: `admin`
+
 ## Backend Setup (Manual)
 
 1. Navigate to the backend directory: `cd backend`
