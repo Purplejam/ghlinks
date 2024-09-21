@@ -77,7 +77,7 @@ export const Register: FunctionComponent = () => {
     return(
         <Fragment>
             <Box sx={ styles.root }>
-                <Paper sx={ styles.paper } elevation={ 2 }>
+                <Paper sx={ styles.paper }>
                     <Box 
                         component={ "form" } 
                         sx={ styles.form }
@@ -116,7 +116,6 @@ export const Register: FunctionComponent = () => {
                                 <Button 
                                     type={ "submit" }
                                     fullWidth
-                                    variant={ "contained" }
                                     disabled={ state.isLoading }
                                 >
                                     { "Register" }

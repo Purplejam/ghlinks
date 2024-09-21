@@ -20,8 +20,7 @@ export const RootStyles: TComponentStyles = () => ({
         padding: "2rem",
         display: "flex",
         flexDirection: "column",
-        gap: "1rem",
-        borderRadius: "12px"
+        gap: "1rem"
     },
     preloader: {
         textAlign: "center"

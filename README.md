@@ -38,7 +38,7 @@ Password: `admin`
 
 ## Backend Setup (Manual)
 
-Also you can run application without Docker and Docker Compose just using Terminal
+Also you can run the application without Docker and Docker Compose just using Terminal
 
 1. Navigate to the backend directory: `cd backend`
 

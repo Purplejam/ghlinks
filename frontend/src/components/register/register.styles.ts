@@ -16,8 +16,7 @@ export const RootStyles: TComponentStyles = () => ({
             xs: "100%"
         },
         display: "flex",
-        flexDirection: "column",
-        borderRadius: "10px"
+        flexDirection: "column"
     },
     form: {
         display: "flex",

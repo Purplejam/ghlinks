@@ -258,7 +258,6 @@ export const Profile: FunctionComponent = () => {
                     <Button 
                         type={ "submit" }
                         fullWidth
-                        variant={ "contained" }
                     >
                         { "Add" }
                     </Button>
